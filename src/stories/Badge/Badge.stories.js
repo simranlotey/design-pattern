@@ -5,9 +5,9 @@ export default {
   title: 'Components/Badge',
   component: Badge,
   tags: ['autodocs'],
-    argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+    // argTypes: {
+    //     backgroundColor: { control: 'color' },
+    // },
 };
 
 export const NumberBadge = (args) => <Badge {...args} />;
