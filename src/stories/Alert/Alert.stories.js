@@ -21,5 +21,5 @@ export const Alerts = (args) => <AlertTemplate {...args} />;
 Alerts.args = {
   severity: "info",
   message: "Alert Text",
-  borderRadius: 2,
+  borderRadius: 8,
 };

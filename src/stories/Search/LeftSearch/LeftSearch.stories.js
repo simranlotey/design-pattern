@@ -1,9 +1,9 @@
 import React from "react";
-import Search from "./Search";
+import LeftSearch from "./LeftSearch";
 
 export default {
   title: "Components/Search",
-  component: Search,
+  component: LeftSearch,
   tags: ["autodocs"],
   argTypes: {
     size: {
@@ -14,9 +14,10 @@ export default {
   },
 };
 
-const Template = (args) => <Search {...args} />;
+const Template = (args) => <LeftSearch {...args} />;
 
-export const LeftSearch = Template.bind({});
-LeftSearch.args = {
+export const LeftSearchs = Template.bind({});
+LeftSearchs.args = {
   size: "small",
 };
+LeftSearchs.storyName = "Left Search"

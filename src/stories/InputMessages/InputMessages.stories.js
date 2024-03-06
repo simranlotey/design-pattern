@@ -23,5 +23,5 @@ export const InputMessage = (args) => <InputMessageTemplate {...args} />;
 InputMessage.args = {
   severity: "info",
   message: "This is a SUCCESS message",
-  borderRadius: 3,
+  borderRadius: 8,
 };
