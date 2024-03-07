@@ -1,9 +1,9 @@
 import React from "react";
-import Alert from "./Alert";
+import Header from "./Header";
 
 export default {
-  title: "Components/Alert",
-  component: Alert,
+  title: "Components/Modal",
+  component: Header,
   tags: ["autodocs"],
   argTypes: {
     backgroundColor: { control: "color" },
@@ -14,10 +14,11 @@ export default {
   },
 };
 
-
-export const Alerts = (args) => <Alert {...args} />;
-Alerts.args = {
+export const HeaderCustom = (args) => <Header {...args} />;
+HeaderCustom.args = {
   severity: "info",
-  alertTitle: "Alert Text",
-  borderRadius: 8,
+  headerTitle: "Modal Title",
+  borderRadius: 0,
 };
+
+HeaderCustom.storyName = "Header";

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.custom-modal-header {
+  display: flex;
+  align-items: center;
+  padding: 18px 26px;
+  border-radius: 8px;
+}
+
+.custom-modal-header.error .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #da1414;
+}
+
+.custom-modal-header.warning .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #b95000;
+}
+
+.custom-modal-header.success .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #287d3c;
+}
+
+.custom-modal-header.info .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #2e5aac;
+}
+
+.custom-modal-header.error {
+  background-color: #feefef;
+  color: #da1414;
+  border-bottom: 1px solid #da1414;
+  font-weight: 700;
+}
+
+.custom-modal-header.warning {
+  background-color: #fff4ec;
+  color: #b95000;
+  border-bottom: 1px solid #b95000;
+  font-weight: 700;
+}
+
+.custom-modal-header.success {
+  background-color: #edf9f0;
+  color: #287d3c;
+  border-bottom: 1px solid #287d3c;
+  font-weight: 700;
+}
+
+.custom-modal-header.info {
+  background-color: #eef2fa;
+  color: #2e5aac;
+  border-bottom: 1px solid #2e5aac;
+  font-weight: 700;
+}
+
+.custom-modal-header-icon {
+  margin-right: 8px;
+}
+
+.custom-modal-header-message {
+  font-family: "MyCustomFont";
+  flex: 1;
+  margin-right: 8px;
+}
+
+.custom-modal-header-close-btn {
+  cursor: pointer;
+  width: 15px;
+  fill: #9098A1;
+}

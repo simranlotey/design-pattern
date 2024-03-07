@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+  }
+  
+  .round-custom-button {
+    padding: 8px 12px;
+    margin: 0;
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    cursor: pointer;
+    font-family: "MyCustomFont";
+    transition: 0.3s ease;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  .round-custom-button:hover {
+    opacity: 0.8;
+  }
+  
+  .round-custom-button.small {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .round-custom-button.medium {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+  
+  .round-custom-button.large {
+    padding: 14px 18px;
+    font-size: 18px;
+  }
+  

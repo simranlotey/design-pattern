@@ -1,6 +1,5 @@
 import React from "react";
 import InputMessages from "./InputMessages";
-import ErrorIcon from "@mui/icons-material/Error";
 
 export default {
   title: "Components/Input Message",
@@ -15,11 +14,7 @@ export default {
   },
 };
 
-const InputMessageTemplate = (args) => (
-  <InputMessages {...args} icon={<ErrorIcon />} />
-);
-
-export const InputMessage = (args) => <InputMessageTemplate {...args} />;
+export const InputMessage = (args) => <InputMessages {...args} />;
 InputMessage.args = {
   severity: "info",
   message: "This is a SUCCESS message",
