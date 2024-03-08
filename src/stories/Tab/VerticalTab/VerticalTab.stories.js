@@ -1,9 +1,9 @@
 import React from "react";
-import HorizontalTab from "./HorizontalTab";
+import VerticalTab from "./VerticalTab";
 
 export default {
   title: "Components/Tab",
-  component: HorizontalTab,
+  component: VerticalTab,
   tags: ["autodocs"],
   parameters: {
     layout: 'centered',
@@ -17,11 +17,11 @@ export default {
   },
 };
 
-export const HorizontalTabs = (args) => <HorizontalTab {...args}></HorizontalTab>;
-HorizontalTabs.args = {
+export const VerticalTabs = (args) => <VerticalTab {...args}></VerticalTab>;
+VerticalTabs.args = {
   iconPosition: "right",
-  tabName: "Horizontal Tabs",
+  tabName: "Vertical Tabs",
   color: "#CC5F00",
   isActive: true,
 };
-HorizontalTabs.storyName = "Horizontal Tab";
+VerticalTabs.storyName = "Vertical Tab";

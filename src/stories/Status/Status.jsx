@@ -4,7 +4,7 @@ import "./Status.css";
 const Status = ({ statusColor }) => {
   return (
     <div className="status-container">
-      <div className="dot" style={{ backgroundColor: statusColor }} />
+      <div className="status-dot" style={{ backgroundColor: statusColor }} />
       <span className="status-text">Status</span>
     </div>
   );

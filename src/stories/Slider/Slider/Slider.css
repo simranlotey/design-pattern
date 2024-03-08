@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider p {
+  margin-left: 10px;
+  font-family: "MyCustomFont";
+  color: #545d69;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#myinput {
+  border-radius: 8px;
+  height: 4px;
+  width: 100%;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 23px;
+  height: 23px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-appearance: none;
+  box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+}
