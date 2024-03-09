@@ -14,7 +14,7 @@ export default {
   },
 };
 
-export const SolidTags = (args) => <SolidTag {...args}></SolidTag>;
+export const SolidTags = (args) => <SolidTag {...args} />;
 SolidTags.args = {
   children: "Tag",
   textColor: "#fff",

@@ -18,7 +18,7 @@ export default {
   },
 };
 
-export const OutlinedButtons = (args) => <OutlinedButton {...args}></OutlinedButton>;
+export const OutlinedButtons = (args) => <OutlinedButton {...args} />;
 OutlinedButtons.args = {
   size: "small",
   children: "Button",

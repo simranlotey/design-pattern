@@ -17,7 +17,7 @@ export default {
   },
 };
 
-export const HorizontalTabs = (args) => <HorizontalTab {...args}></HorizontalTab>;
+export const HorizontalTabs = (args) => <HorizontalTab {...args} />;
 HorizontalTabs.args = {
   iconPosition: "right",
   tabName: "Horizontal Tabs",

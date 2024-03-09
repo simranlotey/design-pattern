@@ -14,7 +14,7 @@ export default {
   },
 };
 
-export const OutlinedTags = (args) => <OutlinedTag {...args}></OutlinedTag>;
+export const OutlinedTags = (args) => <OutlinedTag {...args} />;
 OutlinedTags.args = {
   children: "Tag",
   textColor: "#2196f3",

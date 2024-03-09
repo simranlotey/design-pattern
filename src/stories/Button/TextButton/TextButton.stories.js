@@ -17,7 +17,7 @@ export default {
   },
 };
 
-export const TextButtons = (args) => <TextButton {...args}></TextButton>;
+export const TextButtons = (args) => <TextButton {...args} />;
 TextButtons.args = {
   size: "small",
   children: "Button",

@@ -17,7 +17,7 @@ export default {
   },
 };
 
-export const VerticalTabs = (args) => <VerticalTab {...args}></VerticalTab>;
+export const VerticalTabs = (args) => <VerticalTab {...args} />;
 VerticalTabs.args = {
   iconPosition: "right",
   tabName: "Vertical Tabs",

@@ -13,7 +13,7 @@ export default {
   },
 };
 
-export const TextTags = (args) => <TextTag {...args}></TextTag>;
+export const TextTags = (args) => <TextTag {...args} />;
 TextTags.args = {
   children: "Tag",
   textColor: "#2196f3",

@@ -18,7 +18,7 @@ export default {
   },
 };
 
-export const SolidButtons = (args) => <SolidButton {...args}></SolidButton>;
+export const SolidButtons = (args) => <SolidButton {...args} />;
 SolidButtons.args = {
   size: "small",
   children: "Button",
