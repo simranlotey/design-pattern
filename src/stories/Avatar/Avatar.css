@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.avatarImg {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.avatarDot {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #DA1414;
+  display: none;
+}
+
+.avatarImg.medium {
+  width: 32px;
+  height: 32px;
+}
+
+.avatarImg.large {
+  width: 40px;
+  height: 40px;
+}
+
+.avatarImg.largex2 {
+  width: 48px;
+  height: 48px;
+}
+
+.avatarDot.medium {
+  width: 7px;
+  height: 7px;
+}
+
+.avatarDot.large {
+  right: -5.3px;
+  width: 9px;
+  height: 9px;
+}
+
+.avatarDot.largex2 {
+  right: -5.3px;
+  width: 10px;
+  height: 10px;
+}
+
+.avatarDot.isDot {
+  display: block;
+}
+
+.avatarName {
+  margin: 0 0 0 7px;
+  font-family: "MyCustomFont";
+  font-size: 9px;
+  font-weight: 600;
+  color: #09101D;
+  display: none;
+}
+
+.avatarName.medium {
+  font-size: 11px;
+  margin: 0 0 0 8px;
+}
+
+.avatarName.large {
+  font-size: 13px;
+  margin: 0 0 0 10px;
+}
+
+.avatarName.largex2 {
+  font-size: 16px;
+  margin: 0 0 0 10px;
+}
+
+.avatarName.isAvatarName {
+  display: block;
+}

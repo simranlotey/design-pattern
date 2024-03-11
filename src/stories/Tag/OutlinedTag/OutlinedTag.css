@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.outlined-custom-tag {
+  padding: 5px 8px;
+  margin: 0;
+  font-weight: 700;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #2196f3;
+  color: #2196f3;
+  font-family: "MyCustomFont";
+  transition: 0.3s ease;
+}
+
+.outlined-custom-tag:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+  }
+
+.left-search-container {
+    display: flex;
+    align-items: center;
+    background-color: #F4F6F9;
+    border-radius: 8px;
+}
+
+.left-search-input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #09101D;
+    font-family: "MyCustomFont";
+}
+
+.left-search-input.small {
+    font-size: 16px;
+    padding: 12px 12px;
+}
+
+.left-search-input.medium {
+    font-size: 24px;
+    padding: 12px 14px;
+}
+
+.left-search-input.large {
+    font-size: 32px;
+    padding: 16px 16px;
+}
+
+.left-search-icon {
+    width: 16px;
+    margin-left: 22px;
+    fill: #858C94;
+}
+
+.left-search-icon.medium {
+    width: 22px;
+    margin-left: 26px;
+}
+
+.left-search-icon.large {
+    width: 30px;
+    margin-left: 36px;
+}
+

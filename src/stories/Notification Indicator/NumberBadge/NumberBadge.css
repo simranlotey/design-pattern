@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+  }
+  
+.number-custom-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 28px; 
+    height: 28px; 
+    background-color: #f44336;
+    color: #fff;
+    font-weight: 700;
+    font-family: "MyCustomFont";
+  }
+
+  
