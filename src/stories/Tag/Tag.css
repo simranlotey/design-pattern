@@ -1,0 +1,14 @@
+.custom-tag {
+  padding: 5px 8px;
+  transition: 0.3s;
+  cursor: pointer;
+  outline: none;
+  font-family: "MyCustomFont";
+  font-weight: 700;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.custom-tag:hover {
+  opacity: 0.8;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import InputMessages from "./InputMessages";
+import InputMessage from "./InputMessages";
 
 export default {
   title: "Components/Input Message",
-  component: InputMessages,
+  component: InputMessage,
   tags: ["autodocs"],
   argTypes: {
     backgroundColor: { control: "color" },
@@ -14,9 +14,11 @@ export default {
   },
 };
 
-export const InputMessage = (args) => <InputMessages {...args} />;
-InputMessage.args = {
+const Template = (args) => <InputMessage {...args} />;
+
+export const InputMessages = Template.bind({});
+InputMessages.args = {
   severity: "info",
   message: "This is a SUCCESS message",
-  borderRadius: 8,
+  borderRadius: "8px",
 };

@@ -1,0 +1,244 @@
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+  }
+  
+  .range-slider input {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    outline: none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+  }
+  
+  .range-slider input::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -moz-appearance: none;
+    width: 9px;
+  }
+  
+  .range-slider input::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 1);
+    border: 0;
+  }
+  
+  .range-slider input:last-of-type::-moz-range-track {
+    -moz-appearance: none;
+    background: none transparent;
+    border: 0;
+  }
+  
+  .range-slider input[type="range"]::-moz-focus-outer {
+    border: 0;
+  }
+  
+  .rangeValue {
+    width: 30px;
+  }
+  
+  .output {
+    position: absolute;
+    text-align: center;
+    font-family: "MyCustomFont";
+    color: #545d69;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 4px;
+    display: inline-block;
+    bottom: 85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
+  .range-labels {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+  }
+  
+  .range-labels span {
+    font-family: "MyCustomFont";
+    color: #545d69;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .range-labels.isNumberLabel {
+    display: flex;
+  }
+  
+  .range-slider input[type="range"] {
+    -webkit-appearance: none;
+    background: none;
+  }
+  
+  .range-slider input[type="range"]::-webkit-slider-runnable-track {
+    height: 4px;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  .range-slider input[type="range"]::-ms-track {
+    height: 4px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .range-slider input[type="range"]::-moz-range-track {
+    height: 4px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px 0px #0000004d;
+    margin-top: -12px;
+    position: relative;
+    z-index: 10000;
+  }
+  
+  .range-slider input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px 0px #0000004d;
+    margin-top: -10px;
+    position: relative;
+    z-index: 10000;
+  }
+  
+  .range-slider input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px 0px #0000004d;
+    margin-top: -10px;
+    position: relative;
+    z-index: 10000;
+  }
+  
+  .range-slider input[type="range"]::-webkit-slider-thumb:active,
+  .range-slider input[type="range"]::-ms-thumb:active,
+  .range-slider input[type="range"]::-moz-range-thumb:active {
+    transform: scale(1.2);
+  }
+  
+  .full-range,
+  .incl-range {
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 21px;
+    position: absolute;
+    background: #ddd;
+    border-radius: 20px;
+  }
+  
+  .incl-range {
+    background: #e86c00;
+  }
+
+/*   
+  @font-face {
+    font-family: "MyCustomFont";
+    src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
+  } */
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .slider-value {
+    display: none;
+    margin: 0 0 0 10px;
+    font-family: "MyCustomFont";
+    color: #545d69;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .slider-value.isValue {
+    display: block;
+  }
+  
+  
+  #myinput {
+    border-radius: 8px;
+    height: 4px;
+    width: 100%;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  
+  .labels {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+  }
+  
+  .labels span {
+    font-family: "MyCustomFont";
+    color: #545d69;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .labels.isNumberLabel {
+    display: flex;
+  }
+  
+  .slider input[type="range"]::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    -webkit-appearance: none;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .slider input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.2);
+  }
+  

@@ -24,4 +24,9 @@ ImageAvatar.args = {
   isAvatarName: true,
 };
 
+Avatar.defaultProps = {
+  isAvatarName: true,
+  isDot: true,
+};
+
 ImageAvatar.storyName = "Avatars";

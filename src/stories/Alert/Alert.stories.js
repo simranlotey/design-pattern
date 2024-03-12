@@ -14,10 +14,11 @@ export default {
   },
 };
 
+const Template = (args) => <Alert {...args} />;
 
-export const Alerts = (args) => <Alert {...args} />;
+export const Alerts = Template.bind({});
 Alerts.args = {
   severity: "info",
   alertTitle: "Alert Text",
-  borderRadius: 8,
+  borderRadius: "8px",
 };

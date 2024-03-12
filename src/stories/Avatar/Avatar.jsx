@@ -1,4 +1,6 @@
 import React from "react";
+import avatar from "../assets/avatar.avif"
+import PropTypes from "prop-types";
 import "./Avatar.css";
 
 function Avatar({ avatarSize, isAvatarName, isDot, avatarName }) {
@@ -7,7 +9,7 @@ function Avatar({ avatarSize, isAvatarName, isDot, avatarName }) {
       <div className={`avatarImg ${avatarSize}`}>
         <div className={`avatarDot ${isDot ? "isDot" : ""} ${avatarSize}`} />
         <img
-          src="https://img.freepik.com/premium-photo/3d-avatar-boy-character_914455-598.jpg"
+          src={avatar}
           alt="avatar"
           style={{ width: "100%", height: "100%", borderRadius: "50%" }}
         />
@@ -22,5 +24,11 @@ function Avatar({ avatarSize, isAvatarName, isDot, avatarName }) {
     </div>
   );
 }
+
+Avatar.propTypes = {
+  isAvatarName: PropTypes.bool,
+  isDot: PropTypes.bool,
+  avatarName: PropTypes.string.isRequired,
+};
 
 export default Avatar;

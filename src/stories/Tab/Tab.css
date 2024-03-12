@@ -1,0 +1,65 @@
+.tab {
+  display: flex;
+  font-weight: 600;
+  font-family: "MyCustomFont";
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.tab span {
+  font-size: 16px;
+  text-align: center;
+}
+
+.tab:hover {
+  opacity: 0.8;
+}
+
+.horizontal-tab {
+  padding: 8px 16px;
+  border: none;
+}
+
+.vertical-tab {
+  padding: 5px 16px;
+  border: none;
+}
+
+.horizontal-tab.isActive {
+  border-bottom: 3px solid #cc5f00;
+}
+
+.vertical-tab.isActive {
+  border-left: 4px solid #cc5f00;
+}
+
+.tab .leftIcon {
+  width: 0;
+  fill: #cc5f00;
+  margin-right: 0;
+}
+
+.tab .leftIcon.left {
+  width: 15px;
+  margin-right: 8px;
+}
+
+.tab .rightIcon {
+  width: 0;
+  fill: #cc5f00;
+  margin-left: 0;
+}
+
+.tab .rightIcon.right {
+  width: 15px;
+  margin-left: 8px;
+}
+
+.tab .HrightIcon {
+  width: 0;
+}
+
+.tab .HrightIcon.right {
+  width: 10px;
+  margin-left: 8px;
+}
