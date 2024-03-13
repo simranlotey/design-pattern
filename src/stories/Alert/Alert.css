@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.custom-alert {
+  display: flex;
+  align-items: center;
+  padding: 18px 26px;
+  border-radius: 8px;
+}
+
+.custom-alert.error .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #da1414;
+}
+
+.custom-alert.warning .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #b95000;
+}
+
+.custom-alert.success .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #287d3c;
+}
+
+.custom-alert.info .error-icons {
+  width: 20px;
+  margin-right: 10px;
+  fill: #2e5aac;
+}
+
+.custom-alert.error {
+  background-color: #feefef;
+  color: #da1414;
+}
+
+.custom-alert.warning {
+  background-color: #fff4ec;
+  color: #b95000;
+}
+
+.custom-alert.success {
+  background-color: #edf9f0;
+  color: #287d3c;
+}
+
+.custom-alert.info {
+  background-color: #eef2fa;
+  color: #2e5aac;
+}
+
+.custom-alert-icon {
+  margin-right: 8px;
+}
+
+.custom-alert-message {
+  font-family: "MyCustomFont";
+  flex: 1;
+  margin-right: 8px;
+}
+
+.custom-alert-close-btn {
+  cursor: pointer;
+  width: 15px;
+}
+
+.custom-alert.error .custom-alert-close-btn {
+  fill: #da1414;
+}
+
+.custom-alert.warning .custom-alert-close-btn {
+  fill: #b95000;
+}
+
+.custom-alert.success .custom-alert-close-btn {
+  fill: #287d3c;
+}
+
+.custom-alert.info .custom-alert-close-btn {
+  fill: #2e5aac;
+}
