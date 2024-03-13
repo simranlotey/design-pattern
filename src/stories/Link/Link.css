@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #E86C00;
+    padding-right: 8px;
+    font-family: "MyCustomFont";
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.link.isUnderline {
+    border-bottom: 2px solid #E86C00;
+}
+
+.link:hover {
+    filter: brightness(80%);
+}
+
+.link:active {
+    filter: brightness(90%);
+}
+
+.link:visited {
+    color: #5E38BA;
+}
+
+.link.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.link:hover .arrow-icon {
+    fill: #CC5F00;
+}
+
+.link:active .arrow-icon {
+    fill: #B25300;
+}
+
+.link:visited .arrow-icon {
+    fill: #5E38BA;
+}
+
+.arrow-icon {
+    width: 12px;
+    fill: #E86C00;
+    margin-left: 8px;
+}
+
+.link--small {
+    font-size: 14px;
+}
+
+.link--medium {
+    font-size: 16px;
+}
+
+.link--large {
+    font-size: 20px;
+}
+
+.arrow-icon--small {
+    width: 8px;
+    fill: #E86C00;
+    margin-left: 4px;
+}
+
+.arrow-icon--medium {
+    width: 10px;
+    fill: #E86C00;
+    margin-left: 6px;
+}
+
+.arrow-icon-large {
+    width: 12px;
+    fill: #E86C00;
+    margin-left: 8px;
+}

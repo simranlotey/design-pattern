@@ -40,8 +40,8 @@ Button.propTypes = {
 Button.defaultProps = {
   size: "medium",
   backgroundColor: "#2196f3",
-  textColor: "#ffffff",
-  borderRadius: "5px",
+  textColor: "#fff",
+  borderRadius: "8px",
   border: "none",
 };
 

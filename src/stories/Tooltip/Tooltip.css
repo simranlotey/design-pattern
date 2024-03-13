@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
+}
+
+.tooltip-container {
+  position: relative;
+  display: flex;
+}
+
+.tooltip {
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  border: 1px solid #858c94;
+  box-shadow: 0px 1.25px 4px 0px #00000040;
+  word-wrap: break-word;
+}
+
+.tooltip-text {
+  padding: 15px 48px;
+  width: 206px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #394452;
+  font-family: "MyCustomFont";
+  line-height: 24px;
+}
+
+.tooltip-close-btn {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  cursor: pointer;
+  width: 16px;
+  fill: #858c94;
+}
+
+.tooltip-tri-exclamation {
+  position: absolute;
+  top: 17px;
+  left: 18px;
+  width: 19px;
+  fill: #858c94;
+}
+
+/* Top */
+.tooltip.top::before {
+  content: "";
+  position: absolute;
+  left: 140px;
+  bottom: 99.6%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #858c94;
+}
+
+.tooltip.top::after {
+  content: "";
+  position: absolute;
+  left: 141px;
+  bottom: 99%;
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-bottom-color: white;
+}
+
+/* Bottom */
+.tooltip.bottom::before {
+  content: "";
+  position: absolute;
+  left: 140px;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #858c94;
+}
+.tooltip.bottom::after {
+  content: "";
+  position: absolute;
+  left: 141px;
+  top: 99.5%;
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-top-color: white;
+}
+
+/* Left */
+.tooltip.left::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: #858c94;
+}
+
+.tooltip.left::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -17px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-right-color: #ffffff;
+}
+
+/* Right */
+.tooltip.right::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #858c94;
+}
+
+.tooltip.right::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -17px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-left-color: #ffffff;
+}
