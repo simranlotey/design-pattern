@@ -1,0 +1,58 @@
+.custom-chip {
+    transition: 0.3s;
+    cursor: pointer;
+    outline: none;
+    font-family: "MyCustomFont";
+    font-weight: 700;
+    transition: 0.3s;
+  }
+  .custom-chip span {
+    display: flex;
+  }
+  .custom-chip:hover {
+    filter: brightness(90%);
+  }
+
+  .chip-tick-icon--small {
+    width: 9px;
+    margin: 0 7px 0 0;
+  }
+  .chip-tick-icon--medium {
+    width: 13px;
+    margin: 0 10px 0 0;
+  }
+  .chip-tick-icon--large {
+    width: 15px;
+    margin: 0 10px 0 0;
+  }
+  .chip-close-icon--small {
+    width: 11px;
+    margin: 0 0 0 6px;
+  }
+  .chip-close-icon--medium {
+    width: 16px;
+    margin: 0 0 0 10px;
+  }
+  .chip-close-icon--large {
+    width: 18px;
+    margin: 0 0 0 10px;
+  }
+  .custom-chip--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  
+  .custom-chip--medium {
+    font-size: 17px;
+    padding: 12px 16px;
+  }
+  
+  .custom-chip--large {
+    font-size: 18px;
+    padding: 14px 18px;
+  }
+
+  .custom-chip--disabled {
+    opacity: 0.5; 
+    pointer-events: none;
+  }

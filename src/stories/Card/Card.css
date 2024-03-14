@@ -1,0 +1,97 @@
+.card.horizontal {
+    display: flex;
+    border-radius: 8px;
+    width: 774px;
+    box-shadow: 0px 2px 6px 0px #00000038;
+}
+.card.vertical {
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0px 2px 6px 0px #00000038;
+}
+
+.card.horizontal img {
+    width: 30%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card.vertical img {
+    width: 100%;
+    height: 182px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card .card-content {
+    padding: 25px 24px;
+}
+
+.card span {
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #394452;
+    font-family: "MyCustomFont";
+}
+
+.card h2 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #09101d;
+    line-height: 24px;
+    margin: 0;
+    font-family: "MyCustomFont";
+    padding: 5px 0;
+}
+
+.card p {
+    padding: 10px 0;
+    font-size: 13px;
+    color: #394452;
+    line-height: 20px;
+    font-family: "MyCustomFont";
+    margin: 0;
+}
+
+.card button {
+    background-color: #e86c00;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.card button:hover {
+    filter: brightness(90%);
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .heart-icon,
+.icons .share-icon {
+    width: 24px;
+    margin-right: 25px;
+    fill: #858c94;
+    cursor: pointer;
+}
+
+.icons .three-dot-icon {
+    width: 7px;
+    fill: #858c94;
+    cursor: pointer;
+}
