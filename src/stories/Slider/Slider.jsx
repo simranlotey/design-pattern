@@ -16,7 +16,7 @@ function CustomSlider({ isNumberLabel, isValue, color }) {
   };
 
   return (
-    <div className="slider">
+    <div className="sliders">
       <input
         id="myinput"
         type="range"

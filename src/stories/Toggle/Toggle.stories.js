@@ -10,4 +10,19 @@ export default {
   },
 };
 
-export const ToggleButton = () => <Toggle />;
+export const ToggleButton = (args) => <Toggle {...args} />;
+ToggleButton.args = {
+  labelText: "Label",
+  isLabelText: true,
+  disabled: false,
+  switchToggle: 'toggle'
+};
+
+export const SwitchButton = (args) => <Toggle {...args} />;
+SwitchButton.args = {
+  labelText: "Label",
+  isLabelText: true,
+  disabled: false,
+  switchToggle: 'switch'
+};
+

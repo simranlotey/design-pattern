@@ -1,41 +1,99 @@
-.toggle {
-    position: relative;
-    display: inline-block;
-    width: 56px;
-    height: 32px;
+ .toggle-button {
+     display: flex;
+     align-items: center;
+     position: relative;
+ }
+
+ .toggle-button .labelText {
+     font-family: "MyCustomFont";
+     margin-left: 70px;
+     font-size: 16px;
+     color: #09101D;
+     font-weight: 600;
+     display: flex;
+     align-items: center;
+ }
+
+ .toggle {
+     position: relative;
+     /* display: inline-block; */
+     width: 56px;
+     height: 32px;
+ }
+
+ #toggle {
+     opacity: 0;
+     width: 0;
+     height: 0;
+ }
+
+ .slider {
+     position: absolute;
+     cursor: pointer;
+     inset: 0;
+     background-color: #9098A1;
+     border-radius: 16px;
+     transition: 0.4s;
+ }
+
+ .slider:before {
+     position: absolute;
+     content: '';
+     width: 28px;
+     height: 28px;
+     left: 3px;
+     bottom: 2px;
+     border-radius: 50%;
+     background-color: white;
+     transition: 0.4s;
+ }
+
+ input:checked+.slider {
+     background-color: #E86C00;
+ }
+
+ input:checked+.slider:before {
+     transform: translateX(23px);
+ }
+
+ .slider:hover {
+     filter: brightness(90%);
+ }
+
+ .toggle.disabled {
+     opacity: 0.6;
+     pointer-events: none;
+ }
+ 
+ .toggle-button.switch .labelText.switch {
+     margin-left: 20px;
+ }
+
+ .toggle.switch {
+     display: inline-block;
+     width: 40px;
+     height: 16px;
+ }
+ .slider.switch {
+    background-color: #DADEE3;
 }
 
-#toggle {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
+ .slider.switch:before {
+     width: 24px;
+     height: 24px;
+     left: -5px;
+     bottom: -4px;
+     background-color: #E86C00;
+ }
 
-.slider {
-    position: absolute;
-    cursor: pointer;
-    inset: 0;
-    background-color: #9098A1;
-    border-radius: 16px;
-    transition: 0.4s;
-}
+ .slider.switch:hover:before {
+     box-shadow: 0 0 0 10px #CC5F001A;
+ }
 
-.slider:before {
-    position: absolute;
-    content: '';
-    width: 28px;
-    height: 28px;
-    left: 3px;
-    bottom: 2px;
-    border-radius: 50%;
-    background-color: white;
-    transition: 0.4s;
-}
+ input.switch:checked+.slider.switch {
+     background-color: #DADEE3;
+ }
 
-input:checked + .slider {
-    background-color: #E86C00;
-}
-
-input:checked + .slider:before {
-    transform: translateX(23px);
-}
+ input.switch:checked+.slider.switch:before {
+     transform: translateX(28px);
+ }

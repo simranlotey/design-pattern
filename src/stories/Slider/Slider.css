@@ -174,14 +174,8 @@
   .incl-range {
     background: #e86c00;
   }
-
-/*   
-  @font-face {
-    font-family: "MyCustomFont";
-    src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
-  } */
   
-  .slider {
+  .sliders {
     display: flex;
     align-items: center;
     position: relative;
@@ -198,7 +192,6 @@
   .slider-value.isValue {
     display: block;
   }
-  
   
   #myinput {
     border-radius: 8px;
@@ -227,7 +220,7 @@
     display: flex;
   }
   
-  .slider input[type="range"]::-webkit-slider-thumb {
+  .sliders input[type="range"]::-webkit-slider-thumb {
     width: 24px;
     height: 24px;
     background: rgb(255, 255, 255);
@@ -238,7 +231,7 @@
     transition: 0.3s ease;
   }
   
-  .slider input[type="range"]::-webkit-slider-thumb:active {
+  .sliders input[type="range"]::-webkit-slider-thumb:active {
     transform: scale(1.2);
   }
   
