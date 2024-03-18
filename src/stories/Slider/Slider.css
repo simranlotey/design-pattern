@@ -1,6 +1,6 @@
 .range-slider {
     position: relative;
-    width: 100%;
+    width: 550px;
     height: 35px;
     text-align: center;
   }
@@ -179,6 +179,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    width: 550px;
   }
   
   .slider-value {
@@ -196,7 +197,7 @@
   #myinput {
     border-radius: 8px;
     height: 4px;
-    width: 100%;
+    width: 550px;
     outline: none;
     -webkit-appearance: none;
   }

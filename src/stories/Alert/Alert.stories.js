@@ -5,6 +5,9 @@ export default {
   title: "Components/Alert",
   component: Alert,
   tags: ["autodocs"],
+  parameters: {
+    layout: 'centered',
+  },
   argTypes: {
     backgroundColor: { control: "color" },
     severity: {

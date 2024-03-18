@@ -18,7 +18,7 @@ const Link = ({ text, size, color, disabled, isUnderline }) => {
 };
 
 Link.propTypes = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string,
   color: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   isUnderline: PropTypes.bool,

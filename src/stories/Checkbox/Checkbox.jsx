@@ -27,8 +27,8 @@ const CustomCheckbox = ({ labelText, isLabelText, disabled }) => {
 };
 
 CustomCheckbox.propTypes = {
-  labelText: PropTypes.string.isRequired,
-  isLabelText: PropTypes.bool.isRequired,
+  labelText: PropTypes.string,
+  isLabelText: PropTypes.bool,
   disabled: PropTypes.bool
 };
 

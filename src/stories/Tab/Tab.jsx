@@ -16,11 +16,11 @@ function Tab({ type, color, isActive, children }) {
 }
 
 Tab.propTypes = {
-  type: PropTypes.oneOf(["horizontal", "vertical"]).isRequired,
-  color: PropTypes.string.isRequired,
-  tabName: PropTypes.string.isRequired,
-  iconPosition: PropTypes.oneOf(["none", "right", "left"]).isRequired,
-  isActive: PropTypes.bool.isRequired,
+  type: PropTypes.oneOf(["horizontal", "vertical"]),
+  color: PropTypes.string,
+  tabName: PropTypes.string,
+  iconPosition: PropTypes.oneOf(["none", "right", "left"]),
+  isActive: PropTypes.bool,
 };
 
 export default Tab;

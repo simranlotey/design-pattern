@@ -24,7 +24,7 @@ const CustomInputMessage = ({
 
 CustomInputMessage.propTypes = {
   severity: PropTypes.oneOf(["success", "warning", "error", "info"]),
-  message: PropTypes.string.isRequired,
+  message: PropTypes.string,
   borderRadius: PropTypes.string,
   backgroundColor: PropTypes.string,
 };

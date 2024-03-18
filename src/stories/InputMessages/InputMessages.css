@@ -8,6 +8,7 @@
   align-items: center;
   padding: 18px 26px;
   border-radius: 8px;
+  width: 550px;
 }
 
 .custom-input-messages.error .error-icons {

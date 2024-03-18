@@ -5,6 +5,9 @@ export default {
   title: "Components/Input Message",
   component: InputMessage,
   tags: ["autodocs"],
+  parameters: {
+    layout: 'centered',
+  },
   argTypes: {
     backgroundColor: { control: "color" },
     severity: {

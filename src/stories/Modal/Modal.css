@@ -1,13 +1,9 @@
-/* @font-face {
-  font-family: "MyCustomFont";
-  src: url("./../../assets/SourceSansPro-Regular.otf") format("opentype");
-} */
-
 .custom-modal-header {
   display: flex;
   align-items: center;
   padding: 18px 26px;
   border-radius: 8px;
+  width: 550px;
 }
 
 .custom-modal-header.error .error-icons {
@@ -84,6 +80,7 @@
   flex-direction: column;
   height: 400px;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
+  width: 602px;
 }
 .custom-modal-footer {
   display: flex;
@@ -92,6 +89,7 @@
   padding: 18px 26px;
   border-top: 1px solid #9098a1;
   font-weight: 700;
+  width: 550px;
 }
 
 .custom-modal-footer-message {
@@ -148,6 +146,7 @@
   display: flex;
   align-items: center;
   padding: 18px 26px;
+  width: 550px;
 }
 
 .custom-modal-hmodal.error .error-icons {

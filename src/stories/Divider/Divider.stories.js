@@ -5,6 +5,9 @@ export default {
   title: "Components/Divider",
   component: Divider,
   tags: ["autodocs"],
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Divider {...args} />;

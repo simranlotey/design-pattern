@@ -29,7 +29,7 @@ const CustomAlert = ({ severity, alertTitle, borderRadius, backgroundColor }) =>
 
 CustomAlert.propTypes = {
   severity: PropTypes.oneOf(['error', 'warning', 'info', 'success']),
-  alertTitle: PropTypes.string.isRequired,
+  alertTitle: PropTypes.string,
   borderRadius: PropTypes.string,
   backgroundColor: PropTypes.string,
 };

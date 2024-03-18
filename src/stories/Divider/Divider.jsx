@@ -7,7 +7,7 @@ function Divider({ orientation }) {
 }
 
 Divider.propTypes = {
-  orientation: PropTypes.oneOf(["horizontal", "vertical"]).isRequired,
+  orientation: PropTypes.oneOf(["horizontal", "vertical"]),
 };
 
 export default Divider;

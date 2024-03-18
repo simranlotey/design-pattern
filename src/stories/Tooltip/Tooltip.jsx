@@ -27,8 +27,8 @@ const Tooltip = ({ text, position }) => {
 };
 
 Tooltip.propTypes = {
-  text: PropTypes.string.isRequired,
-  position: PropTypes.oneOf(["top", "bottom", "left", "right"]).isRequired,
+  text: PropTypes.string,
+  position: PropTypes.oneOf(["top", "bottom", "left", "right"]),
 };
 
 Tooltip.defaultProps = {

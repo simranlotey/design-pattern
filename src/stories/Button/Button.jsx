@@ -29,7 +29,7 @@ const Button = ({
 };
 
 Button.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   size: PropTypes.oneOf(["small", "medium", "large"]),
   backgroundColor: PropTypes.string,
   textColor: PropTypes.string,

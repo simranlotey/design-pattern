@@ -1,0 +1,62 @@
+.navigation {
+  display: flex;
+  font-weight: 600;
+  font-family: "MyCustomFont";
+  transition: 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-item {
+  font-size: 16px;
+  text-align: center;
+  color: #858C94;
+  font-family: "MyCustomFont";
+}
+
+.nav-item.isCollapsed {
+  display: none;
+}
+
+.nav-item.isActive {
+  color: #09101D;
+}
+
+.navigation:hover {
+  opacity: 0.8;
+}
+
+.active-navigation {
+  padding: 5px 16px;
+  border: none;
+}
+
+.active-navigation.isActive {
+  border-left: 4px solid #cc5f00;
+}
+
+.navigation .navIcon {
+  width: 15px;
+  margin-right: 12px;
+  fill: #A5ABB3;
+}
+
+.navigation .navIcon.isActive {
+  fill: #394452;
+}
+
+.navigation .notificationIcon {
+  width: 15px;
+  margin-right: 12px;
+  fill: #858C94;
+}
+
+.navigation .notificationDot.isIndicator {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #DA1414;
+}

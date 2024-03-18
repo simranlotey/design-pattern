@@ -28,7 +28,7 @@ function Avatar({ avatarSize, isAvatarName, isDot, avatarName }) {
 Avatar.propTypes = {
   isAvatarName: PropTypes.bool,
   isDot: PropTypes.bool,
-  avatarName: PropTypes.string.isRequired,
+  avatarName: PropTypes.string,
 };
 
 export default Avatar;

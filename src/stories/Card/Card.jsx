@@ -27,10 +27,10 @@ const Card = ({ title, description, textButton, orientation }) => {
 };
 
 Card.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  textButton: PropTypes.string.isRequired,
-  orientation: PropTypes.oneOf(['horizontal', 'vertical']).isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  textButton: PropTypes.string,
+  orientation: PropTypes.oneOf(['horizontal', 'vertical']),
 };
 
 export default Card;

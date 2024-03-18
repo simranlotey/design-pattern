@@ -5,6 +5,9 @@ export default {
   title: "Components/Search",
   component: Search,
   tags: ["autodocs"],
+  parameters: {
+    layout: 'centered',
+  },
   argTypes: {
     size: {
       options: ["small", "medium", "large"],

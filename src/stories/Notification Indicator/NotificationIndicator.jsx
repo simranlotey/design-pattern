@@ -7,7 +7,7 @@ export function DotBadge({ color }) {
 }
 
 DotBadge.propTypes = {
-  color: PropTypes.string.isRequired,
+  color: PropTypes.string,
 };
 
 export function NumberBadge({ color, backgroundColor, badgeContent }) {
@@ -32,8 +32,8 @@ export function NumberBadge({ color, backgroundColor, badgeContent }) {
 }
 
 NumberBadge.propTypes = {
-  color: PropTypes.string.isRequired,
-  backgroundColor: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  backgroundColor: PropTypes.string,
   badgeContent: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-    .isRequired,
+    ,
 };

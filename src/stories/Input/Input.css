@@ -1,0 +1,78 @@
+.input-field-container {
+    position: relative;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #858c94;
+    width: 350px;
+    margin-top: 9px;
+}
+
+.input-container.textarea {
+    align-items: start;
+}
+
+.input-input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #09101d;
+    font-family: "MyCustomFont";
+    font-size: 16px;
+    padding: 12px 12px;
+}
+
+.input-input::placeholder {
+    color: var(--placeholder-color, #09101d);
+}
+
+.input-left-icon {
+    width: 18px;
+    fill: #858c94;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.input-left-icon.textarea {
+    margin-top: 14px;
+}
+
+.input-icon {
+    width: 20px;
+    fill: #858c94;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.input-label {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "MyCustomFont";
+    color: #09101d;
+    margin-left: 15px;
+}
+
+.input-label.labelInsideInput {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "MyCustomFont";
+    color: #09101d;
+    margin-left: 10px;
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    background-color: #fff;
+    padding: 0 6px;
+}
+
+.input-label span {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "MyCustomFont";
+    color: #da1414;
+}

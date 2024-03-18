@@ -13,6 +13,7 @@ const Chip = ({
   size,
   disabled,
   isLeftIcon,
+  isRightIcon
 }) => {
   const chipStyle = {
     backgroundColor,
@@ -40,7 +41,7 @@ const Chip = ({
           />
         )}
         {children}
-        {!isLeftIcon && (
+        {isRightIcon && (
           <CircleCloseIcon
             style={{ fill: textColor }}
             className={`chip-close-icon--${size}`}
@@ -52,11 +53,12 @@ const Chip = ({
 };
 
 Chip.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   size: PropTypes.oneOf(["small", "medium", "large"]),
   backgroundColor: PropTypes.string,
   textColor: PropTypes.string,
   isLeftIcon: PropTypes.bool,
+  isRightIcon: PropTypes.bool,
   borderRadius: PropTypes.string,
   border: PropTypes.string,
   disabled: PropTypes.bool,
@@ -67,7 +69,6 @@ Chip.defaultProps = {
   backgroundColor: "#2196f3",
   textColor: "#fff",
   borderRadius: "8px",
-  isLeftIcon: true,
   border: "none",
   disabled: false,
 };

@@ -24,7 +24,7 @@ const Tag = ({
 };
 
 Tag.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   backgroundColor: PropTypes.string,
   textColor: PropTypes.string,
   borderRadius: PropTypes.string,

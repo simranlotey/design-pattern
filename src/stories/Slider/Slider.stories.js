@@ -4,6 +4,9 @@ import { CustomRangeSlider, CustomSlider } from "./Slider";
 export default {
   title: "Components/Slider",
   tags: ["autodocs"],
+  parameters: {
+    layout: 'centered',
+  },
   argTypes: {
     isNumberLabel: {
       control: "boolean",
