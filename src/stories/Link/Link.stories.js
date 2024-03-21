@@ -20,4 +20,4 @@ Links.args = {
   isUnderline: false,
   disabled: false,
 };
-
+Links.storyName="Link";

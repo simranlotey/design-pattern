@@ -15,16 +15,16 @@ export default {
   },
 };
 
-export const SolidTag = (args) => <Tag {...args} />;
-SolidTag.args = {
+export const Solid = (args) => <Tag {...args} />;
+Solid.args = {
   children: 'Tag',
   backgroundColor: '#2196f3',
   textColor: '#fff',
   borderRadius: '4px',
 };
 
-export const OutlineTag = (args) => <Tag {...args} />;
-OutlineTag.args = {
+export const Outline = (args) => <Tag {...args} />;
+Outline.args = {
   children: 'Tag',
   backgroundColor: 'transparent',
   textColor: '#2196f3',
@@ -32,8 +32,8 @@ OutlineTag.args = {
   borderRadius: '4px',
 };
 
-export const TextTag = (args) => <Tag {...args} />;
-TextTag.args = {
+export const Text = (args) => <Tag {...args} />;
+Text.args = {
   children: 'Tag',
   backgroundColor: 'transparent',
   textColor: '#2196f3',

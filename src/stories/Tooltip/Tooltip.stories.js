@@ -13,26 +13,26 @@ export default {
   },
 };
 
-export const LeftTooltip = (args) => <Tooltip {...args} />
-LeftTooltip.args = {
+export const Left = (args) => <Tooltip {...args} />
+Left.args = {
   text: 'Tool Tip. Mauris tellus, eget ut aliquam aliquet tincidunt habitant ipsum.',
   position: 'left'
 };
 
-export const RightTooltip = (args) => <Tooltip {...args} />
-RightTooltip.args = {
+export const Right = (args) => <Tooltip {...args} />
+Right.args = {
   text: 'Tool Tip. Mauris tellus, eget ut aliquam aliquet tincidunt habitant ipsum.',
   position: 'right'
 };
 
-export const TopTooltip = (args) => <Tooltip {...args} />
-TopTooltip.args = {
+export const Top = (args) => <Tooltip {...args} />
+Top.args = {
   text: 'Tool Tip. Mauris tellus, eget ut aliquam aliquet tincidunt habitant ipsum.',
   position: 'top'
 };
 
-export const BottomTooltip = (args) => <Tooltip {...args} />
-BottomTooltip.args = {
+export const Bottom = (args) => <Tooltip {...args} />
+Bottom.args = {
   text: 'Tool Tip. Mauris tellus, eget ut aliquam aliquet tincidunt habitant ipsum.',
   position: 'bottom'
 };

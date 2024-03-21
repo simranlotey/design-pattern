@@ -12,35 +12,9 @@ export default {
     layout: "centered",
   },
   argTypes: {
-    // iconPosition: {
-    //   options: ["none", "right", "left"],
-    //   control: { type: "select" },
-    // },
     color: { control: "color" },
   },
 };
-
-// export const HorizontalNavigations = (args) => (
-//   <Navigation type="horizontal" {...args}>
-//     <LeftIcon
-//       className={`leftIcon ${args.iconPosition}`}
-//       style={{ fill: args.color }}
-//     />
-//     <span style={{ color: args.color }}>{args.navigationName}</span>
-//     <RightIcon
-//       className={`HrightIcon ${args.iconPosition}`}
-//       style={{ fill: args.color }}
-//     />
-//   </Navigation>
-// );
-// HorizontalNavigations.args = {
-//   iconPosition: "right",
-//   navigationName: "Horizontal Navigations",
-//   color: "#CC5F00",
-//   isActive: true,
-//   type: "horizontal",
-// };
-// HorizontalNavigations.storyName = "Horizontal Navigation";
 
 export const NavItem = (args) => (
   <Navigation {...args}>
@@ -62,7 +36,9 @@ NavItem.args = {
   isCollapsed: false,
 };
 
-export const Notification = (args) => (
+NavItem.storyName="NavItem";
+
+export const NotificationItem = (args) => (
   <Navigation {...args}>
     {args.isActive ? (
       <Bell className={`notificationIcon`} />
@@ -73,9 +49,11 @@ export const Notification = (args) => (
   </Navigation>
 );
 
-Notification.args = {
+NotificationItem.args = {
   navItem: "Nav Item",
   color: "#CC5F00",
   isActive: true,
   isIndicator: true
 };
+
+NotificationItem.storyName="Notification";

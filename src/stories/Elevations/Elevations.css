@@ -1,0 +1,36 @@
+.elevation-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elevation-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 30px 0;
+}
+
+.elevation {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px 0px #00000038;
+}
+.elevation-info {
+    margin: 0 0 0 15px;
+}
+
+.elevation-container div h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #09101D;
+    font-family: "MyCustomFont";
+    margin: 0 0 3px 0;
+}
+
+.elevation-container div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7b8490;
+    font-family: "MyCustomFont";
+    margin: 0 0 3px 0;
+}

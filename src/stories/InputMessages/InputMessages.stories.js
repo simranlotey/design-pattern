@@ -2,14 +2,16 @@ import React from "react";
 import InputMessage from "./InputMessages";
 
 export default {
-  title: "Components/Input Message",
+  title: "Components/InputMessage",
   component: InputMessage,
   tags: ["autodocs"],
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     backgroundColor: { control: "color" },
+    textColor: { control: "color" },
+    iconColor: { control: "color" },
     severity: {
       options: ["success", "warning", "error", "info"],
       control: { type: "select" },
@@ -25,3 +27,4 @@ InputMessages.args = {
   message: "This is a SUCCESS message",
   borderRadius: "8px",
 };
+InputMessages.storyName = "InputMessage";

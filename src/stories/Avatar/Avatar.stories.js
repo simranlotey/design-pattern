@@ -29,4 +29,4 @@ Avatar.defaultProps = {
   isDot: true,
 };
 
-ImageAvatar.storyName = "Avatars";
+ImageAvatar.storyName = "Avatar";

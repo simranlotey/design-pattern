@@ -8,6 +8,8 @@ const CustomInputMessage = ({
   message,
   borderRadius,
   backgroundColor,
+  iconColor,
+  textColor,
 }) => {
   return (
     <>
@@ -15,8 +17,10 @@ const CustomInputMessage = ({
         className={`custom-input-messages ${severity}`}
         style={{ borderRadius, backgroundColor }}
       >
-        <ErrorIcon className="error-icons" />
-        <span className="custom-input-message">{message}</span>
+        <ErrorIcon className="error-icons" style={{ fill: iconColor }} />
+        <span className="custom-input-message" style={{ color: textColor }}>
+          {message}
+        </span>
       </div>
     </>
   );
@@ -27,10 +31,12 @@ CustomInputMessage.propTypes = {
   message: PropTypes.string,
   borderRadius: PropTypes.string,
   backgroundColor: PropTypes.string,
+  textColor: PropTypes.string,
+  iconColor: PropTypes.string,
 };
 
 CustomInputMessage.defaultProps = {
-  severity: 'info',
+  severity: "info",
   borderRadius: "8px",
 };
 

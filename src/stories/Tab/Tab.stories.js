@@ -20,7 +20,7 @@ export default {
   },
 };
 
-export const HorizontalTabs = (args) => (
+export const Horizontal = (args) => (
   <Tab type="horizontal" {...args}>
     <LeftIcon
       className={`leftIcon ${args.iconPosition}`}
@@ -33,16 +33,15 @@ export const HorizontalTabs = (args) => (
     />
   </Tab>
 );
-HorizontalTabs.args = {
+Horizontal.args = {
   iconPosition: "right",
   tabName: "Horizontal Tabs",
   color: "#CC5F00",
   isActive: true,
   type: "horizontal",
 };
-HorizontalTabs.storyName = "Horizontal Tab";
 
-export const VerticalTabs = (args) => (
+export const Vertical = (args) => (
   <Tab type="vertical" {...args}>
     <CheckIcon
       className={`leftIcon ${args.iconPosition}`}
@@ -56,11 +55,10 @@ export const VerticalTabs = (args) => (
   </Tab>
 );
 
-VerticalTabs.args = {
+Vertical.args = {
   iconPosition: "right",
   tabName: "Vertical Tabs",
   color: "#CC5F00",
   isActive: true,
   type: "vertical",
 };
-VerticalTabs.storyName = "Vertical Tab";

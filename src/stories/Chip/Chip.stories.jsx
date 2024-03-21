@@ -15,8 +15,8 @@ export default {
   },
 };
 
-export const OutlineChip = (args) => <Chip {...args} />;
-OutlineChip.args = {
+export const OutlinedChip = (args) => <Chip {...args} />;
+OutlinedChip.args = {
   children: 'Chip',
   backgroundColor: 'transparent',
   textColor: '#E86C00',
@@ -27,6 +27,8 @@ OutlineChip.args = {
   size: 'medium',
   disabled: false,
 };
+
+OutlinedChip.storyName="Outlined";
 
 export const RoundedChip = (args) => <Chip {...args} />;
 RoundedChip.args = {
@@ -41,3 +43,4 @@ RoundedChip.args = {
   iconType: false,
 };
 
+RoundedChip.storyName="Rounded";

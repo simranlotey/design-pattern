@@ -17,9 +17,10 @@ ToggleButton.args = {
   disabled: false,
   switchToggle: 'toggle'
 };
+ToggleButton.storyName="Toggle";
 
-export const SwitchButton = (args) => <Toggle {...args} />;
-SwitchButton.args = {
+export const Switch = (args) => <Toggle {...args} />;
+Switch.args = {
   labelText: "Label",
   isLabelText: true,
   disabled: false,

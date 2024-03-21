@@ -6,10 +6,12 @@ export default {
   component: Alert,
   tags: ["autodocs"],
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     backgroundColor: { control: "color" },
+    textColor: { control: "color" },
+    iconColor: { control: "color" },
     severity: {
       options: ["success", "warning", "error", "info"],
       control: { type: "select" },
@@ -25,3 +27,4 @@ Alerts.args = {
   alertTitle: "Alert Text",
   borderRadius: "8px",
 };
+Alerts.storyName = "Alert";

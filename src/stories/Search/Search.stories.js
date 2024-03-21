@@ -29,8 +29,12 @@ LeftSearch.args = {
   isLeft: true,
 };
 
+LeftSearch.storyName="LeftSearch";
+
 export const RightSearch = Templates.bind({});
 RightSearch.args = {
   size: "medium",
   isLeft: false,
 };
+
+RightSearch.storyName="RightSearch";

@@ -30,3 +30,4 @@ RangeSlider.args = {
   color: "#e86c00",
 };
 
+RangeSlider.storyName="RangeSlider";
