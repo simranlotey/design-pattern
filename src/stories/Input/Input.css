@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .input-field-container {
     position: relative;
 }
@@ -22,7 +24,7 @@
     border: none;
     outline: none;
     color: #09101d;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     font-size: 16px;
     padding: 12px 12px;
 }
@@ -52,7 +54,7 @@
 .input-label {
     font-size: 16px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #09101d;
     margin-left: 15px;
 }
@@ -60,7 +62,7 @@
 .input-label.labelInsideInput {
     font-size: 13px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #09101d;
     margin-left: 10px;
     position: absolute;
@@ -73,6 +75,6 @@
 .input-label span {
     font-size: 13px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #da1414;
 }

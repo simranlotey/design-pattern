@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -14,7 +16,7 @@ table tr {
 table th {
     font-size: 16px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #272833;
     padding: 12px 16px;
     text-align: left;
@@ -23,7 +25,7 @@ table th {
 table td {
     padding: 12px 16px;
     text-align: left;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #272833;
     font-size: 14px;
 }
@@ -69,8 +71,8 @@ table tr td:first-child {
     transition: 0.3s;
     cursor: pointer;
     outline: none;
-    font-family: "MyCustomFont";
-    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
     transition: 0.3s;
     font-size: 13px;
     border-radius: 4px;
@@ -86,8 +88,8 @@ table tr td:first-child {
 .table-col-5 {
     cursor: pointer;
     outline: none;
-    font-family: "MyCustomFont";
-    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
     transition: 0.3s;
     font-size: 14px;
     padding: 10px 12px;

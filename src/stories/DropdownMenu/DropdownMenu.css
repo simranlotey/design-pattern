@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "MyCustomFont";
-    src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 .dropdownMenu-container {
     position: relative;
@@ -23,7 +20,7 @@
     font-size: 13px;
     font-weight: 600;
     color: #394452;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     margin: 0 0 27px 0;
     cursor: pointer
 }
@@ -32,7 +29,7 @@
     font-size: 11px;
     font-weight: 600;
     color: #545D69;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     margin: 0 0 27px 0;
     cursor: pointer
 }
@@ -54,7 +51,7 @@
     font-size: 13px;
     font-weight: 600;
     color: #394452;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     cursor: pointer;
     margin: 0;
 }
@@ -117,7 +114,7 @@
 }
 
 .checkbox-container p {
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     font-weight: 600;
     font-size: 13px;
     color: #09101d;
@@ -185,7 +182,7 @@
 .radio-group label {
     font-size: 13px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #09101D;
 }
 
@@ -266,7 +263,7 @@
     border: none;
     outline: none;
     color: #09101d;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     font-size: 16px;
     padding: 10px 35px 10px 18px;
 }
@@ -282,8 +279,8 @@
 .dropdown-custom-button {
     cursor: pointer;
     outline: none;
-    font-family: "MyCustomFont";
-    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
     transition: 0.3s;
     font-size: 14px;
     padding: 10px 12px;

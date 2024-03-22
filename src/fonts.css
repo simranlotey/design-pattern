@@ -1,8 +1,0 @@
-@font-face {
-    font-family: "MyCustomFont";
-    src: url("./stories/assets/SourceSansPro-Regular.otf") format("opentype");
-}
-
-body {
-    font-family: "MyCustomFont";
-}

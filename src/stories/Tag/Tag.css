@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .custom-tag {
   padding: 5px 8px;
   transition: 0.3s;
   cursor: pointer;
   outline: none;
-  font-family: "MyCustomFont";
-  font-weight: 700;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
   transition: 0.3s;
   font-size: 14px;
 }

@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "MyCustomFont";
-  src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 .custom-alert {
   display: flex;
@@ -60,7 +57,7 @@
 }
 
 .custom-alert-message {
-  font-family: "MyCustomFont";
+  font-family: 'Source Sans 3', sans-serif;
   flex: 1;
   margin-right: 8px;
 }

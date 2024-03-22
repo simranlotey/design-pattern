@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "MyCustomFont";
-  src: url("../assets/SourceSansPro-Regular.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 .avatar {
   position: relative;
@@ -65,7 +62,7 @@
 
 .avatarName {
   margin: 0 0 0 7px;
-  font-family: "MyCustomFont";
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 9px;
   font-weight: 600;
   color: #09101D;

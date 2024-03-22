@@ -25,7 +25,7 @@ const Templates = (args) => <Search {...args} />;
 
 export const LeftSearch = Templates.bind({});
 LeftSearch.args = {
-  size: "medium",
+  size: "small",
   isLeft: true,
 };
 
@@ -33,7 +33,7 @@ LeftSearch.storyName="LeftSearch";
 
 export const RightSearch = Templates.bind({});
 RightSearch.args = {
-  size: "medium",
+  size: "small",
   isLeft: false,
 };
 

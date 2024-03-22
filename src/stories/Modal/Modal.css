@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .custom-modal-header {
   display: flex;
   align-items: center;
@@ -34,28 +36,28 @@
   background-color: #feefef;
   color: #da1414;
   border-bottom: 1px solid #da1414;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-header.warning {
   background-color: #fff4ec;
   color: #b95000;
   border-bottom: 1px solid #b95000;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-header.success {
   background-color: #edf9f0;
   color: #287d3c;
   border-bottom: 1px solid #287d3c;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-header.info {
   background-color: #eef2fa;
   color: #2e5aac;
   border-bottom: 1px solid #2e5aac;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-header-icon {
@@ -63,7 +65,7 @@
 }
 
 .custom-modal-header-message {
-  font-family: "MyCustomFont";
+  font-family: "Source Sans 3", sans-serif;
   flex: 1;
   margin-right: 8px;
 }
@@ -82,30 +84,32 @@
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
   width: 602px;
 }
+
 .custom-modal-footer {
   display: flex;
   align-items: center;
   justify-content: end;
   padding: 18px 26px;
   border-top: 1px solid #9098a1;
-  font-weight: 700;
+  font-weight: 600;
   width: 550px;
 }
 
 .custom-modal-footer-message {
-  font-family: "MyCustomFont";
+  font-family: "Source Sans 3", sans-serif;
   flex: 1;
   margin-right: 8px;
 }
+
 .custom-modal-footer-btn {
   cursor: pointer;
   outline: none;
   border: none;
   font-size: 14px;
-  font-family: "MyCustomFont";
+  font-family: "Source Sans 3", sans-serif;
   padding: 8px 12px;
   margin-right: 20px;
-  font-weight: 700;
+  font-weight: 600;
   background-color: transparent;
   transition: 0.3s ease;
 }
@@ -114,6 +118,7 @@
   opacity: 0.8;
   transform: scale(1.02);
 }
+
 .custom-modal-footer-text-btn {
   color: #9098a1;
 }
@@ -136,12 +141,15 @@
 .custom-modal-footer-solid-btn.warning {
   background-color: #b95000;
 }
+
 .custom-modal-footer-solid-btn.success {
   background-color: #287d3c;
 }
+
 .custom-modal-footer-solid-btn.info {
   background-color: #2e5aac;
 }
+
 .custom-modal-hmodal {
   display: flex;
   align-items: center;
@@ -177,28 +185,28 @@
   background-color: #feefef;
   color: #da1414;
   border-bottom: 1px solid #da1414;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-hmodal.warning {
   background-color: #fff4ec;
   color: #b95000;
   border-bottom: 1px solid #b95000;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-hmodal.success {
   background-color: #edf9f0;
   color: #287d3c;
   border-bottom: 1px solid #287d3c;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-hmodal.info {
   background-color: #eef2fa;
   color: #2e5aac;
   border-bottom: 1px solid #2e5aac;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-modal-hmodal-icon {
@@ -206,7 +214,7 @@
 }
 
 .custom-modal-hmodal-message {
-  font-family: "MyCustomFont";
+  font-family: "Source Sans 3", sans-serif;
   flex: 1;
   margin-right: 8px;
 }

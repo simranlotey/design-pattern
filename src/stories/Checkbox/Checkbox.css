@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .checkbox-container {
   display: flex;
   align-items: center;
 }
 
 .checkbox-container p {
-  font-family: "MyCustomFont";
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: #09101d;
@@ -47,14 +49,11 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.checkbox-container
-  input[type="checkbox"]:checked
-  + .checkbox-custom
-  .checkmark {
+.checkbox-container input[type="checkbox"]:checked+.checkbox-custom .checkmark {
   opacity: 1;
 }
 
-.checkbox-container input[type="checkbox"]:checked + .checkbox-custom {
+.checkbox-container input[type="checkbox"]:checked+.checkbox-custom {
   background-color: #e86c00;
 }
 

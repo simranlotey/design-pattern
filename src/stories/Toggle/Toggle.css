@@ -1,99 +1,102 @@
- .toggle-button {
-     display: flex;
-     align-items: center;
-     position: relative;
- }
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
- .toggle-button .labelText {
-     font-family: "MyCustomFont";
-     margin-left: 70px;
-     font-size: 16px;
-     color: #09101D;
-     font-weight: 600;
-     display: flex;
-     align-items: center;
- }
-
- .toggle {
-     position: relative;
-     /* display: inline-block; */
-     width: 56px;
-     height: 32px;
- }
-
- #toggle {
-     opacity: 0;
-     width: 0;
-     height: 0;
- }
-
- .slider {
-     position: absolute;
-     cursor: pointer;
-     inset: 0;
-     background-color: #9098A1;
-     border-radius: 16px;
-     transition: 0.4s;
- }
-
- .slider:before {
-     position: absolute;
-     content: '';
-     width: 28px;
-     height: 28px;
-     left: 3px;
-     bottom: 2px;
-     border-radius: 50%;
-     background-color: white;
-     transition: 0.4s;
- }
-
- input:checked+.slider {
-     background-color: #E86C00;
- }
-
- input:checked+.slider:before {
-     transform: translateX(23px);
- }
-
- .slider:hover {
-     filter: brightness(90%);
- }
-
- .toggle.disabled {
-     opacity: 0.6;
-     pointer-events: none;
- }
- 
- .toggle-button.switch .labelText.switch {
-     margin-left: 20px;
- }
-
- .toggle.switch {
-     display: inline-block;
-     width: 40px;
-     height: 16px;
- }
- .slider.switch {
-    background-color: #DADEE3;
+.toggle-button {
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
- .slider.switch:before {
-     width: 24px;
-     height: 24px;
-     left: -5px;
-     bottom: -4px;
-     background-color: #E86C00;
- }
+.toggle-button .labelText {
+    font-family: "Source Sans 3", sans-serif;
+    margin-left: 70px;
+    font-size: 16px;
+    color: #09101d;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
 
- .slider.switch:hover:before {
-     box-shadow: 0 0 0 10px #CC5F001A;
- }
+.toggle {
+    position: relative;
+    /* display: inline-block; */
+    width: 56px;
+    height: 32px;
+}
 
- input.switch:checked+.slider.switch {
-     background-color: #DADEE3;
- }
+#toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
 
- input.switch:checked+.slider.switch:before {
-     transform: translateX(28px);
- }
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #9098a1;
+    border-radius: 16px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 28px;
+    left: 3px;
+    bottom: 2px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: #e86c00;
+}
+
+input:checked+.slider:before {
+    transform: translateX(23px);
+}
+
+.slider:hover {
+    filter: brightness(90%);
+}
+
+.toggle.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.toggle-button.switch .labelText.switch {
+    margin-left: 20px;
+}
+
+.toggle.switch {
+    display: inline-block;
+    width: 40px;
+    height: 16px;
+}
+
+.slider.switch {
+    background-color: #dadee3;
+}
+
+.slider.switch:before {
+    width: 24px;
+    height: 24px;
+    left: -5px;
+    bottom: -4px;
+    background-color: #e86c00;
+}
+
+.slider.switch:hover:before {
+    box-shadow: 0 0 0 10px #cc5f001a;
+}
+
+input.switch:checked+.slider.switch {
+    background-color: #dadee3;
+}
+
+input.switch:checked+.slider.switch:before {
+    transform: translateX(28px);
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .dot-badge {
   width: 8px;
   height: 8px;
@@ -13,6 +15,6 @@
   height: 28px;
   background-color: #f44336;
   color: #fff;
-  font-weight: 700;
-  font-family: "MyCustomFont";
+  font-weight: 600;
+  font-family: "Source Sans 3", sans-serif;
 }

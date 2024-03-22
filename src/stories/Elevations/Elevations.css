@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .elevation-container {
     display: flex;
     flex-wrap: wrap;
@@ -21,9 +23,9 @@
 
 .elevation-container div h4 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #09101D;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     margin: 0 0 3px 0;
 }
 
@@ -31,6 +33,6 @@
     font-size: 14px;
     font-weight: 400;
     color: #7b8490;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     margin: 0 0 3px 0;
 }

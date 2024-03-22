@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 .radio {
     display: block;
     position: relative;
     padding-left: 35px;
     margin-bottom: 25px;
-    min-height: 20px; 
+    min-height: 20px;
 }
 
 .radio-group label {
     font-size: 13px;
     font-weight: 600;
-    font-family: "MyCustomFont";
+    font-family: "Source Sans 3", sans-serif;
     color: #09101D;
 }
 
