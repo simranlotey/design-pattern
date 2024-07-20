@@ -1,4 +1,4 @@
-# Storybook Components
+# Component Library
 
 ### UI Components Design
 
